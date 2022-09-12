@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+:root {
+    --bg-color: #794BE7;
+    --text-color: #581EE1;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-color);
+    display: flex;
+}
+
+.left, .right {
+    margin: auto;
+    display: grid;
+    border: 1px solid white;
+}
+
+.right {
+    width: 20%;
+    height: 50%;
+}
+
+.right > a {
+    margin-top: 3%;
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.right > button {
+    background-color: #581EE1;
+    width: 100%;
+    margin: 0% 2% 2% 0%;
+    border: 1px solid white;
+    font-family: Verdana;
+    color: white;
+}
+
+.box {
+    padding: 1vw;
+    margin: 1vw;
+    font-family: Verdana;
+    color: white;
+    border: 1px solid var(--text-color);
+}
+
+@keyframes OpacityEffect {
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    0% {
+        opacity: 0;
+    }
+}
